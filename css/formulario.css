@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+body{
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.formulario{
+    width: 900px;
+    border-left: 2px solid #E1A614;
+    border-right: 2px solid #E1A614;
+    padding-left: 40px;
+}
+h4{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.boton{
+    border-radius: 6px ;
+    width: 350px;
+    height: 3vh;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.enviar{
+    color: white;
+    border: #E1A614;
+    background-color: #E1A614 ;
+
+}
+.reset{
+    color:#E1A614;
+    border: 1px solid #E1A614;    
+}
+

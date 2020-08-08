@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/formulario.css">
+    <title>Contactos</title>
+</head>
+<body>
+    <div class="formulario"> 
+        <h1>Contactos</h1>
+   
+    <form action="formulario.html" method="post">
+        <h4>¿De donde sos?</h4>
+        <select name="localidad">
+        <option value="pilar">Pilar</option> 
+
+        <option value="tres-Feb">Tres de Febrero</option>
+
+        <option value="quil">Quilmes</option>
+
+        <option value="der">Pte Derqui</option>
+
+        <option value="muñ">Muñiz</option>
+
+        </select>
+        <h4>¿Que te parecio la iluminacion del ambiente?</h4>
+
+       
+        <input type="checkbox" name="ambiente" value="acorde"><label for="acorde">Muy acorde</label><br>
+
+        <input type="checkbox" name="ambiente" value="bueno"><label for="bueno">Buena, pero podria mejorar</label><br>
+
+        <input type="checkbox" name="ambiente" value="malo"><label for="malo"  >Mala</label><br>
+
+        <h4>¿Que tipo de plato fue el que mas te gusto?</h4>
+
+        <input type="checkbox" name="plato" value="entrada"><label for="">Entrada</label> <br>
+
+        <input type="checkbox" name="plato" value="plat-princ">
+        <label for="">Plato Principal</label><br>
+
+        <input type="checkbox" name="plato" value="postre"><label for="">Postre</label><br>
+
+        <input type="checkbox" name="plato" value="otros">
+        <label for="">Otros</label><br>
+
+        <h4>¿Recomendarias el lugar?</h4>
+        
+            <input type="radio" name="lugar"> Si
+            <input type="radio" name="lugar"> No
+        <h4>¿Porque?</h4>
+
+        <textarea name="mensaje" id="mensaje" cols="60" rows="8" required></textarea>
+
+        <h4>Dejanos tus datos y nos pondremos en contacto</h4>
+        <label for="nombre">Nombre: </label> 
+        <input type="text" name="nombre" id="nombre" placeholder="tu nombre" required><br> <br>
+
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email" placeholder="tu email" required> <br>
+
+      <button class="boton enviar" type="submit">Enviar</button>
+      <button class="boton reset" type="reset">Resetear</button>
+    </form>
+    </div>
+</body>
+</html>
